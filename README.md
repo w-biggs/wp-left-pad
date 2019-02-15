@@ -29,6 +29,7 @@ Just use the shortcode in any WordPress text area. Easy peasy. A few examples:
 
 * 1.0
   * First proper release
+  * CHANGE: Fix handling of multi-byte pad characters
 * 0.1
   * Work in progress
 
