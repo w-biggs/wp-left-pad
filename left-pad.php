@@ -29,10 +29,18 @@ function left_pad_func( $atts ){
   $len = $atts[1];
   // decode html entities before mapping to variable
   $ch = html_entity_decode($atts[2]);
+  // turn `$len` into the padding length
+  $len = $len - mb_strlen($str);
+  // if no need to pad
+  if($len <= 0){
+    return $str;
+  }
   // limit pad to one character
   $ch = mb_substr($ch,0,1);
   // pad!
-  $str = str_pad($str, $len, $ch, STR_PAD_LEFT);
+  for ($i=0; $i < $len; $i++) { 
+    $str = $ch . $str;
+  }
   // escape html, just to be safe
   return esc_html($str);
 }
