@@ -2,7 +2,7 @@
 /**
  * Plugin Name: left-pad
  * Description: Because programming sucks.
- * Version: 0.1
+ * Version: 1.0
  * Author: W Biggs
  * Author URI: https://wilsonbiggs.com/
  * License: WTFPL

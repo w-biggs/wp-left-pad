@@ -3,7 +3,7 @@ Because programming sucks.
 
 ## Installation
 
-Download the [latest .zip release](https://github.com/w-biggs/left-pad/releases/latest), then install it via the "Add Plugin" button on WordPress's "Plugins" page.
+Download [master.zip](https://github.com/w-biggs/wp-left-pad/archive/master.zip), then install it via the "Add Plugin" button on WordPress's "Plugins" page.
 
 ## Usage example
 
@@ -27,6 +27,8 @@ Just use the shortcode in any WordPress text area. Easy peasy. A few examples:
 
 ## Release History
 
+* 1.0
+  * First proper release
 * 0.1
   * Work in progress
 
