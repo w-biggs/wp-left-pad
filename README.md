@@ -1,4 +1,4 @@
-# Product Name
+# wp-left-pad
 Because programming sucks.
 
 ## Installation
